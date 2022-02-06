@@ -1,22 +1,32 @@
+:root {
+    --backgr_color: #fff6d9;
+}
+
 * {
     margin: 0
 }
 
-/*content */
+/* website */
 wrapper {
     display: flex;
 }
 
-nav {
+/* Navigation sidebar computer */
+
+.nav_links {
+    display: block;
     width: 400px;
     height: 100vh;
-    background-color: #f5edd3;
+    background-color: var(--backgr_color);
+    border-right: solid rgb(192, 192, 192) 1px;
+    box-shadow: 8px 0px 8px -4px #000000;
     list-style-type: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    
+    text-align: center; 
+    padding: 0px;
 }
 
 nav a{
@@ -28,13 +38,51 @@ nav a{
     margin: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 20px; 
-    margin-top: 20px;
+.nav_icon {
+    display: none;
 }
 
-.content h1{
+.nav_btn {
+    display: none;
+}
+
+/* nav phone */
+
+@media screen and (max-width: 750px) {
+
+    .nav_icon {
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: -10px;
+        z-index: 1;
+        background-color: rgb(115, 165, 161);
+        width: 50px;
+        height: 40px;
+        border-radius: 30%;
+    }
+
+    .nav_links {
+        position: fixed;
+        background-color: rgba(255, 250, 227, 0.8); 
+        width: 100%;
+        max-width: 750px;
+        opacity: 0;
+        transition: opacity .5s ease-out;
+    }
+
+    .nav_btn:checked ~ .nav_links {
+        opacity: 1;
+    }
+}
+
+/* Main content part */
+main {
+    background-color: var(--backgr_color);
+    width: 100%;
+}
+
+main h1{
     font-family: 'Bebas Neue';
     padding: 0px 40px;
 }

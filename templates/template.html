@@ -8,19 +8,22 @@
 
     <body>
         <wrapper>
-            <nav>
-                <ul>
+            <nav>     
+                <input class="nav_btn" type="checkbox" id="toggle"/>
+                <label class="nav_icon" for="toggle"><h1></h1></label>     
+                <ul class="nav_links">
                     <li><a href="">HOME</a></li>
                     <li><a href="">PROJECTS</a></li>
                     <li><a href="">COURSES</a></li>
                     <li><a href="">ABOUT ME</a></li>
                     <li><a href="">CONTACT</a></li>
-                </ul>
+                </ul>        
             </nav>
-            <div class="content">
+             
+            <main>
                 {% block body %}
                 {% endblock %}
-            </div>
+            </main>
         </wrapper>
     </body>
 </html>
