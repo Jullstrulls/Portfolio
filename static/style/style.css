@@ -13,13 +13,14 @@ wrapper {
 
 /* Navigation sidebar computer */
 
+
 .nav_links {
     display: block;
     width: 400px;
     height: 100vh;
     background-color: var(--backgr_color);
     border-right: solid rgb(192, 192, 192) 1px;
-    box-shadow: 8px 0px 8px -4px #000000;
+    box-shadow: 8px 0px 8px -4px #bdbdbd;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -27,6 +28,7 @@ wrapper {
     align-items: center;
     text-align: center; 
     padding: 0px;
+    position: fixed;
 }
 
 nav a{
@@ -48,7 +50,7 @@ nav a{
 
 /* nav phone */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
 
     .nav_icon {
         display: block;
@@ -66,7 +68,7 @@ nav a{
         position: fixed;
         background-color: rgba(255, 250, 227, 0.8); 
         width: 100%;
-        max-width: 750px;
+        max-width: 1000px;
         opacity: 0;
         transition: opacity .5s ease-out;
     }
@@ -80,9 +82,56 @@ nav a{
 main {
     background-color: var(--backgr_color);
     width: 100%;
+    padding: 2%;
+    
 }
 
 main h1{
     font-family: 'Bebas Neue';
     padding: 0px 40px;
+    font-size: 500%;
+}
+
+.name_blob {
+    position: relative;
+    background-image: url("blue_shape.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    max-width: 100%;
+    padding: 50px;
+    
+}
+
+.profile_image {
+    position: relative;
+    width: 40%;
+    left: 40%;
+    bottom: 400px;
+}
+
+.red_blob {
+    position: relative;
+    background-image: url("red_shape.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 200px;
+    max-width: 100%;
+    padding: 50px;
+    left: 60%;
+    bottom: 300px;
+}
+
+.orang_blob {
+    position: relative;
+    background-image: url("orange_shape.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 200px;
+    max-width: 100%;
+    padding: 50px;
+    left: 60%;
+    bottom: 300px;
 }
