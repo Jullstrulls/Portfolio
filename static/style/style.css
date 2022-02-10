@@ -202,3 +202,7 @@ main h1{
 .box_input:checked ~ .box_content {
  display: block;
 }
+
+.content {
+    padding: 30px;
+}
