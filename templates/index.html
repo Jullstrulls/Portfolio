@@ -3,14 +3,62 @@
 - Julia Johansson
 {% endblock %}
 {% block body %}
-<main>
-    <div class="name_blob">
-        <h1>Julia</h1>
-        <h1>Johansson</h1>
-    </div> 
-    <div class="red_blob"></div>
-    <img class="profile_image" src="{{ url_for('static', filename='images/personal.jpeg')}}" alt="">
-    <div class="orang_blob"></div>
 
-</main>
+<div class="name_blob">
+    <h1>Julia</h1>
+    <h1>Johansson</h1>
+</div>
+<div class="red_blob"></div>
+<img class="profile_image" src="{{ url_for('static', filename='images/personal.jpeg')}}" alt="">
+<div class="orang_blob"></div>
+
+<section class="portfolio">
+    <div class="header" style="background-color: orange;">
+        <h1>PORTFOLIO</h1>
+        <h2>My favorite projects</h2>
+    </div>
+    <p>Filtrera på privata och skolprojekt</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</section>
+
+<section class="portfolio">
+    <div class="header" style="background-color: teal;">
+        <h1>COURSES</h1>
+        <h2>Knowledge learned by courses</h2>
+    </div>
+    <div class="course_box">
+        <input type="checkbox" name="question_box" id="question5" class="box_input">
+        <label for="question5" class="box_label">Imperativ programmering 7.5 HP </label>
+        <div class="box_content">
+            <h3>Innehåll:</h3>
+            <p>Kunna hantera ett programspråk med dess verktyg och dokumentation. 
+                Förmåga att arbete med styrsstrukturer och uppdelning av program i moduler. 
+                Förmåga att formulera algoritmer, lösa problem samt arbeta med testning 
+                och felsökning.
+            </p>
+            <h3>Ämnen:</h3>
+            <p>Imperativ programmering, ett imperativt programspråks konstruktioner, in- 
+                och utmatning samt filhantering. Datastrukturer, såsom listor, 
+                träd, grafer och tabeller.
+            </p>
+            <h3>Tekniker:</h3>
+            <ul>
+                <li>Python</li>                
+                <li>Emacs</li>                
+                <li>Linux</li>
+            </ul>
+            <h3>Linköpings Universitet, HT2021</h3>
+
+        </div>
+    </div>
+</section>
+
 {% endblock %}
