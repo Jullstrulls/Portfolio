@@ -1,0 +1,34 @@
+[
+    {
+	"name" : "Blogg",
+	"id" : 1,
+	"start_date" : "2021-03-01",
+	"end_date" : "2021-05-31",
+	"course_id" : "TDP001",
+	"course_name" : "Handhavande av datormiljö",
+	"techniques_used" : ["HTML", "CSS"],
+	"description" : "En blogg som skapades för att samla terminalmejl i kursen TDP001. Fungerar att lägga till inlägg, skriva med olika formatteringar och länkar kopplade till inläggen i navigationsbaren.",
+	"long_description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+	"image" : "blog.PNG",
+	"external_link" : "www.blogg.se",	
+	"course_points" : 4,
+	"group_size" : "1"
+    },
+    {
+        "name" : "Spel - Save Santa",
+        "id" : 3,
+        "start_date" : "2021-11-17",
+        "end_date" : "2021-12-17",
+        "course_id" : "TDP005",
+        "course_name" : "Projekt: Objektorienterad programmering",
+        "techniques_used" : ["C++", "SFML"],
+        "description" : "Ett utmanande 2D arkad-spel om en tomte som ska samla iho ",
+        "long_description" : "Save Santa är ett utmanande och roligt spel som kan spelas flera gånger om där du tävlar om att samla poäng och hålla ut så länge som möjligt. Spelet är ett 2D arkadspel där du kan styra tomten till höger och vänster genom att använda piltangenterna. Med hjälp av tomten ska du fånga och missa olika fallande objekt från himlen för att överleva och samla mer poäng. Spelet är slut när tomten förlorar alla sina liv. De fyra olika fallande objekten hjärta, stjärna, bomb och karamell har olika egenskaper. Att fånga ett hjärta ger dig +1 liv och +5 poäng, en stjärna ger dig +10 poäng. Akta dig däremot från bomberna, för om du råkar fånga en sådan förlorar du -1 liv. Karamellen är mycket ovanlig och snabb, men om du lyckas fånga den är den värd hela +30 poäng. Det är inte heller okej att missa alla objekt. Missar du en stjärna förlorar du -1 liv. Svårighetsgraden ökar i takt med hur länge du spelar spelet. Efter detta projektet har jag bemästrat kunskaper i att göra spel i SFML med hjälp av C++. Spelet är gjort med en abstraktion av klasser och arvshierarki. Jag har tillsammans med min projektpartner Julia Skantz arbetat med projektet och med en god tidsplanering och effektivt arbete dagtid blev vi färdiga med spelet hela en vecka innan deadline. Projektet har utvecklat mina färdigheter i Git, främst att hantera olika Git konflikter och merges. Spelet visar på mina kunskaper i C++ som kan tillämpas på andra projekt med detta programmeringsspråk.",
+        "image" : "savesanta.png",
+        "big_image" : "blog.png",
+        "external_link" : "",
+        "course_points" : 6,
+        "group_size" : "2"
+    }   
+	
+]
