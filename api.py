@@ -7,3 +7,10 @@ def load(filename):
             data = json.load(f)
             return data 
         
+def get_techniques(data):
+    techniques = []
+    for project in data:
+        for technique in project["techniques_used"]:
+            if technique not in techniques:
+                techniques.append(technique)
+    return techniques

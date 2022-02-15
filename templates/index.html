@@ -19,30 +19,28 @@
         <h2>My favorite projects</h2>
     </div>
     <div class="content">
-       
+        
         <div class="project_listing">
             {% for project in projects %}
-            <a href="{{url_for('info', id=project.id)}}">
-            <div class="project_box">
-                <img src="{{ url_for('static', filename='images/'+ project.image) }}" alt="">
-                <div class="project_hover">
-                    <h2>{{project.name}}</h2>
-                    <p>{{project.description}}</p>
+            <a href="{{url_for('info', id=project.id)}}"></a>
+                <div class="project_box">
+                    <img src="{{ url_for('static', filename='images/'+ project.image) }}" alt="">
+                    <div class="project_overlay">
+                        <h2>{{project.name}}</h2>
+                        <p>{{project.description}}</p>
+                        <p>
+                        {% for technique in project.techniques_used %}
+                        {{technique}} 
+                        
+                        {% endfor %}
+                    </p>
+
+                    </div>
                 </div>
-            </div>
             </a>
 
             {% endfor %}
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
     </div>      
 </section>
 
@@ -59,18 +57,18 @@
                 <div class="box_content">
                     <h3>Description:</h3>
                     <p> {{course.description}}</p>
-                    <h3>Subject:</h3>
-                    <p>{{course.subjects}}</p>
                     <h3>Techniques:</h3>
                     <ul>
                         {% for technique in course.techniques_used %}
                         <li>{{technique}}</li>                
                         {% endfor %}
                     </ul>
+                    {% if course.projects_id %}
                     <h3>Course projects:</h3>
                     {% for project in course.projects_id %}
                         <a href="/{{project.id}}">{{project.name}}</a>  
                     {% endfor %}
+                    {% endif %}
                     <h3 class="school">{{course.school}}, {{course.start}} </h3>
     
                 </div>
@@ -86,7 +84,48 @@
         <h1>ABOUT ME</h1>
         <h2>Get to know me!</h2>
     </div>
+    <div class="grid_container">
+        <img src="{{ url_for('static', filename='images/me2.jpg')}}" alt="">
+        <div class="info">
+            <h3>Hello!</h3>
+            <p>Julia, 22 years old from Växjö Sweden. Studying bachelor degree in
+                programming at Linköping university. 
+            </p>
+            <p>
+                I am a hard-working, curious and creative person that is hungry for new 
+                things. I like to always learn and rarely sit home on the couch not doing
+                anything. 
+            </p>
+            <p><b>Fun facts about me!</b></p>
+            <ul>
+                <li>Have photographed as a hobby for 10 years!</li>
+                <li>Coached gymnasts since highschool</li>
+                <li>Can't decide if backend or frontend is more fun</li>
+                <li>Have worked 3 years as an accountant</li>
+            </ul>
+        </div>
+        
+        <div>
+            <p><b>Familiar techniques:</b></p>
+            <ul>
+                {% for technique in techniques %}
+                <li>{{technique}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <img src="{{ url_for('static', filename='images/code.jpg')}}" alt="">  
+        
+        
+        
+        
+            
+    </div>
 
 </section>  
+
+<div class="back_to_top">
+    <a href="#home">Back to top?</a>
+</div>
+
 
 {% endblock %}

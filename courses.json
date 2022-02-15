@@ -1,47 +1,120 @@
 [
-    {
-	"code" : "TDP001",
-	"name" : "Handhavande av datormiljö",
-	"start" : "HT-21",
-	"credits" : "4 hp",
-	"description" : "Adminstrera egna datormiljön effektivt. Skriptförmåga. Utnyttja en generell texteditor effektivt. Hantera Internetkoppling, lägga upp sidor och arbeta med Internet-servrar och versionshanteringsservrar.",
-	"subjects" : "Vad är en dator, utveckling av programmering och programspråk, operativsystem, högnivå- och skriptspråk, generell texteditor, Internet/nätverk, konfigurering/metadata, versionshantering.",
-    "techniques_used" : ["Linux", "Git", "Regex", "Emacs", "Latex"],
-    "projects_id" : [{"id": 1, "name" : "blogg"}],
-    "school" : "Linköpings universitet"
-    },
 	{
-		"code" : "TDP001",
-		"name" : "Handhavande av datormiljö",
-		"start" : "HT-21",
-		"credits" : "4 hp",
-		"description" : "Adminstrera egna datormiljön effektivt. Skriptförmåga. Utnyttja en generell texteditor effektivt. Hantera Internetkoppling, lägga upp sidor och arbeta med Internet-servrar och versionshanteringsservrar.",
-		"subjects" : "Vad är en dator, utveckling av programmering och programspråk, operativsystem, högnivå- och skriptspråk, generell texteditor, Internet/nätverk, konfigurering/metadata, versionshantering.",
-		"techniques_used" : ["Linux", "Git", "Regex", "Emacs", "Latex"],
-		"projects_id" : [{"id": 1, "name" : "blogg"}],
-		"school" : "Linköpings universitet"
+		"code": "GD204F",
+		"name": "Graphic design, introduction",
+		"start": "Spring-2020",
+		"credits": "7,5 hp",
+		"description": "Designing layouts, typography, logotype design.",
+		"techniques_used": [
+			"Adobe illustrator",
+			"Adobe indesign"
+		],
+		"projects_id": [],
+		"school": "Högskolan Kristianstad"
+	},
+
+	{
+		"code": "D0015D",
+		"name": "Web development, introduction",
+		"start": "Spring-2021",
+		"credits": "7,5 hp",
+		"description": "Web design with user friendly focus following swedish laws. Basic to advanced HTML and CSS knowledge. Mobile responsive website.",
+		"techniques_used": [
+			"HTML",
+			"CSS"
+		],
+		"projects_id": [{
+			"id": 1,
+			"name": "Website for group mindfullness trips."
+		}],
+		"school": "Luleå tekniska universitet"
 	},
 	{
-		"code" : "TDP001",
-		"name" : "Handhavande av datormiljö",
-		"start" : "HT-21",
-		"credits" : "4 hp",
-		"description" : "Adminstrera egna datormiljön effektivt. Skriptförmåga. Utnyttja en generell texteditor effektivt. Hantera Internetkoppling, lägga upp sidor och arbeta med Internet-servrar och versionshanteringsservrar.",
-		"subjects" : "Vad är en dator, utveckling av programmering och programspråk, operativsystem, högnivå- och skriptspråk, generell texteditor, Internet/nätverk, konfigurering/metadata, versionshantering.",
-		"techniques_used" : ["Linux", "Git", "Regex", "Emacs", "Latex"],
-		"projects_id" : [{"id": 1, "name" : "blogg"}],
-		"school" : "Linköpings universitet"
+		"code": "TDP001",
+		"name": "Management of computer environment",
+		"start": "Fall-2021",
+		"credits": "4 hp",
+		"description": "Manage computer environment, scripting, text editor, internet servers, version control, operative systems, ",
+		"techniques_used": [
+			"Git",
+			"Latex",
+			"Regex"
+		],
+		"projects_id": [
+			{
+				"id": 2,
+				"name": "blogg"
+			}
+		],
+		"school": "Linköpings universitet"
 	},
 	{
-		"code" : "TDP001",
-		"name" : "Handhavande av datormiljö",
-		"start" : "HT-21",
-		"credits" : "4 hp",
-		"description" : "Adminstrera egna datormiljön effektivt. Skriptförmåga. Utnyttja en generell texteditor effektivt. Hantera Internetkoppling, lägga upp sidor och arbeta med Internet-servrar och versionshanteringsservrar.",
-		"subjects" : "Vad är en dator, utveckling av programmering och programspråk, operativsystem, högnivå- och skriptspråk, generell texteditor, Internet/nätverk, konfigurering/metadata, versionshantering.",
-		"techniques_used" : ["Linux", "Git", "Regex", "Emacs", "Latex"],
-		"projects_id" : [{"id": 1, "name" : "blogg"}],
-		"school" : "Linköpings universitet"
-	}	
-	
+		"code": "TDP002",
+		"name": "Imperative programming",
+		"start": "Fall-2021",
+		"credits": "6 hp",
+		"description": "Imperative programming, input/output, conditional statements, loops, filemanagement, data structures, modules API, algorithms, testing.",
+		"techniques_used": [
+			"Python",
+			"Git"
+		],
+		"projects_id": [],
+		"school": "Linköpings universitet"
+	},
+	{
+		"code": "TDP003",
+		"name": "Project: Personal Computer Environment",
+		"start": "Fall-2021",
+		"credits": "6 hp",
+		"description": "Basic ability to administer personal computer environment in practice. Ability to develop programs according to a specification for personal needs. Documents during development, planning, lo-fi prototype, project plan, system documentation",
+		"techniques_used": [
+			"Python",
+			"HTML/CSS",
+			"Flask/Jinja",
+			"Json",
+			"Git",
+			"Latex"
+		],
+		"projects_id": [
+			{
+				"id": 3,
+				"name": "Personal portfolio for future projects."
+			}
+		],
+		"school": "Linköpings universitet"
+	},
+	{
+		"code": "TDP004",
+		"name": "Object Oriented Programming",
+		"start": "Fall-2021",
+		"credits": "8 hp",
+		"description": "Concepts in object oriented programming and design. Object oriented programming and constructs in object oriented programming languages, e.g. class, object, encapsulation, inheritance. Constructs for repetition and choice. Input/Output. Data structures and algorithms using standard libraries: containrar, search, sorting, iterators. Datatypes, declarations, statements, expressions, functions. Dynamic memory management.",
+		"techniques_used": [
+			"C++",
+			"Git"
+		],
+		"projects_id": [],
+		"school": "Linköpings universitet"
+	},
+	{
+		"code": "TDP005",
+		"name": "Project: Object Oriented System",
+		"start": "Fall-2021",
+		"credits": "6 hp",
+		"description": "Application of constructs in an object oriented language (C++) in a suitable way. Experience of using tools in program implementation. Code design. Experience of project phases: design, implementation, testing, documentation. ",
+		"techniques_used": [
+			"C++",
+			"SFML",
+			"Make",
+			"Latex",
+			"Git"
+		],
+		"projects_id": [
+			{
+				"id": 4,
+				"name": "Game Save Santa. Capture falling objects and gather points!"
+			}
+		],
+		"school": "Linköpings universitet"
+	}
 ]

@@ -7,7 +7,9 @@ app = Flask("Portfolio")
 def index():
     courses = load("courses.json")
     projects = load("projects.json")
-    return render_template("index.html", courses=courses, projects=projects)
+    techniques = get_techniques(projects)
+    print(techniques)
+    return render_template("index.html", courses=courses, projects=projects, techniques=techniques)
 
 @app.route("/project/<int:id>")
 def info(id):
