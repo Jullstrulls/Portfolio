@@ -1,13 +1,47 @@
 [
     {
-	"course_code" : "TDP001",
-	"course_name" : "Handhavande av datormiljö",
-	"course_start" : "HT-21",
+	"code" : "TDP001",
+	"name" : "Handhavande av datormiljö",
+	"start" : "HT-21",
 	"credits" : "4 hp",
 	"description" : "Adminstrera egna datormiljön effektivt. Skriptförmåga. Utnyttja en generell texteditor effektivt. Hantera Internetkoppling, lägga upp sidor och arbeta med Internet-servrar och versionshanteringsservrar.",
 	"subjects" : "Vad är en dator, utveckling av programmering och programspråk, operativsystem, högnivå- och skriptspråk, generell texteditor, Internet/nätverk, konfigurering/metadata, versionshantering.",
     "techniques_used" : ["Linux", "Git", "Regex", "Emacs", "Latex"],
-    "projects_id" : [1],
+    "projects_id" : [{"id": 1, "name" : "blogg"}],
     "school" : "Linköpings universitet"
-    }
+    },
+	{
+		"code" : "TDP001",
+		"name" : "Handhavande av datormiljö",
+		"start" : "HT-21",
+		"credits" : "4 hp",
+		"description" : "Adminstrera egna datormiljön effektivt. Skriptförmåga. Utnyttja en generell texteditor effektivt. Hantera Internetkoppling, lägga upp sidor och arbeta med Internet-servrar och versionshanteringsservrar.",
+		"subjects" : "Vad är en dator, utveckling av programmering och programspråk, operativsystem, högnivå- och skriptspråk, generell texteditor, Internet/nätverk, konfigurering/metadata, versionshantering.",
+		"techniques_used" : ["Linux", "Git", "Regex", "Emacs", "Latex"],
+		"projects_id" : [{"id": 1, "name" : "blogg"}],
+		"school" : "Linköpings universitet"
+	},
+	{
+		"code" : "TDP001",
+		"name" : "Handhavande av datormiljö",
+		"start" : "HT-21",
+		"credits" : "4 hp",
+		"description" : "Adminstrera egna datormiljön effektivt. Skriptförmåga. Utnyttja en generell texteditor effektivt. Hantera Internetkoppling, lägga upp sidor och arbeta med Internet-servrar och versionshanteringsservrar.",
+		"subjects" : "Vad är en dator, utveckling av programmering och programspråk, operativsystem, högnivå- och skriptspråk, generell texteditor, Internet/nätverk, konfigurering/metadata, versionshantering.",
+		"techniques_used" : ["Linux", "Git", "Regex", "Emacs", "Latex"],
+		"projects_id" : [{"id": 1, "name" : "blogg"}],
+		"school" : "Linköpings universitet"
+	},
+	{
+		"code" : "TDP001",
+		"name" : "Handhavande av datormiljö",
+		"start" : "HT-21",
+		"credits" : "4 hp",
+		"description" : "Adminstrera egna datormiljön effektivt. Skriptförmåga. Utnyttja en generell texteditor effektivt. Hantera Internetkoppling, lägga upp sidor och arbeta med Internet-servrar och versionshanteringsservrar.",
+		"subjects" : "Vad är en dator, utveckling av programmering och programspråk, operativsystem, högnivå- och skriptspråk, generell texteditor, Internet/nätverk, konfigurering/metadata, versionshantering.",
+		"techniques_used" : ["Linux", "Git", "Regex", "Emacs", "Latex"],
+		"projects_id" : [{"id": 1, "name" : "blogg"}],
+		"school" : "Linköpings universitet"
+	}	
+	
 ]
