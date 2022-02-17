@@ -30,6 +30,11 @@ h3 {
     margin-top: 10px;
 }
 
+body {
+    position: relative;
+    z-index: 0;
+}
+
 /* website */
 wrapper {
     display: flex;
@@ -121,6 +126,7 @@ nav a:hover {
 main {
     background-color: var(--backgr_color);
     width: 100%;
+    overflow: hidden;
 }
 
 main h1{
@@ -129,52 +135,30 @@ main h1{
     font-size: 500%;
 }
 
-.name_blob {
+.home img {
+    min-width: 100%;
+}
+
+.home {
     position: relative;
-    background-image: url("blue_shape.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 200px;
+    z-index: 0;
+}
+
+.overlay {
+    padding: inherit;
+    position: absolute;
+    width: 100%;
+    height: 819px;
+    top: 0;
+    left: 0;
     max-width: 100%;
-    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.profile_image {
-    position: relative;
-    width: 40%;
-    left: 40%;
-    bottom: 400px;
-}
 
-.red_blob {
-    position: relative;
-    background-image: url("red_shape.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 30%;
-    height: 200px;
-    max-width: 100%;
-    padding: 50px;
-    left: 60%;
-    bottom: 300px;
-}
-
-.orang_blob {
-    position: relative;
-    background-image: url("orange_shape.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 30%;
-    height: 200px;
-    max-width: 100%;
-    padding: 50px;
-    left: 60%;
-    bottom: 500px;
-}
 
 .header {
     /*Header background color for each section is set in html file*/

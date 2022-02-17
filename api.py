@@ -14,3 +14,9 @@ def get_techniques(data):
             if technique not in techniques:
                 techniques.append(technique)
     return techniques
+
+def get_project(data, id):
+    for project in data:
+        if project["id"] == id:
+            return project
+    return {}

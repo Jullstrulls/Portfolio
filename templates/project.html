@@ -1,0 +1,31 @@
+{% extends "template.html" %}
+{% block title %}
+{{project.name}}
+{% endblock %}
+{% block body %}
+
+<h1>{{project.name}}</h1>
+<img src="{{ url_for('static', filename='images/'+ project.image) }}" alt="">
+<div class="grid_container">
+    <div class="rhs">
+        <p>{{project.description}}</p>
+        <p>{{project.long_description}}</p>
+    </div>
+    <div class="info_box">
+        <ul>
+            <li><b>Start date:</b> {{project.start_date}}</li>
+            <li><b>End date:</b> {{project.end_date}}</li>
+            <li><b>Type:</b> {{project.project_type}} project</li>
+            <li><b>Course:</b> {{project.course_id}}</li>
+            <li><b>Course name:</b> {{project.course_name}}</li>
+            <li><b>Techniques:</b> 
+                {% for technique in project.techniques_used %}
+                {{technique}}
+                {% endfor %}
+            </li>
+            <li><b>Co-programmer:</b> {{project.co_programmer}}</li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

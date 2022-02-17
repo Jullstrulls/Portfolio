@@ -1,17 +1,17 @@
 {% extends "template.html" %}
 {% block title %}
-- Julia Johansson
+ Julia Johansson
 {% endblock %}
 {% block body %}
-<div class="home" id="home">
-    <div class="name_blob">
-        <h1>Julia</h1>
-        <h1>Johansson</h1>
+<section class="home" id="home">
+    <img src="{{ url_for('static', filename='images/background.jpg')}}" alt="">
+    <div class="overlay">
+        <h1>Julia Johansson</h1>
+        <h2>Student Innovativ Programmering Linköpings univ </h2>
+        <h3>Exam 2024</h3>
     </div>
-    <div class="red_blob"></div>
-    <img class="profile_image" src="{{ url_for('static', filename='images/personal.jpeg')}}" alt="">
-    <div class="orang_blob"></div>
-</div>
+
+</section>
 
 <section class="portfolio" id="projects">
     <div class="header" style="background-color: #bccfc9;">
@@ -22,7 +22,7 @@
         
         <div class="project_listing">
             {% for project in projects %}
-            <a href="{{url_for('info', id=project.id)}}"></a>
+            <a href="{{url_for('info', id=project.id)}}">
                 <div class="project_box">
                     <img src="{{ url_for('static', filename='images/'+ project.image) }}" alt="">
                     <div class="project_overlay">

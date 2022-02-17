@@ -116,5 +116,33 @@
 			}
 		],
 		"school": "Linköpings universitet"
+	},
+	{
+		"code": "TDP007",
+		"name": "Computer Language Construction",
+		"start": "Spring-2022",
+		"credits": "6 hp",
+		"description": "Structure and implementation of programming langauges. Abstraction and the role of abstraction in programming languages. Basic principles of interpreter design. Regular expressions and finite automatons. Syntactic parsing. Abstract syntax trees. Overview of different types of computer languages.",
+		"techniques_used": [
+			"Ruby"
+		],
+		"projects_id": [
+			
+		],
+		"school": "Linköpings universitet"
+	},
+	{
+		"code": "TDTS04",
+		"name": "Computer Networks and Distributed Systems",
+		"start": "Spring-2022",
+		"credits": "8 hp",
+		"description": "Basics for distributed systems, scaling, architectures, rpc and port mapping, socket-based communication between processes. Pitfalls when implementing distributed systems. Object-based distributed systems and web-based distributed systems. Caching, replication, and fault tolerance. UTC, NTP. Lamport and vector clocks. Mutual exclusion. client-server. CDN and Akamai. Protocol layer concept. System architectures. Network types, their characteristics and components (router, switch, hub, repeater). Protocol mechanisms and channels. Access network techniques. MAC protocols. The collision domain concept. The sliding window protocol. Error detection. LAN. Wireless networks (Bluetooth, WiFi, WiMax). Internet and standardization. The TCP/IP protocol family. Distance vector and link-state routing. ICMP. ARP. NAT. DHCP. Naming, addressing and routing in the Internet. TCP's retransmission timer, flow control and congestion control. Reliable data delivery in TCP. Three-way handshake. Network performance issues. IP telephony. P2P networks. The DHT data structure. Internet history. Internet design principles. Lan background. Trends.",
+		"techniques_used": [
+			"Python socket"
+		],
+		"projects_id": [
+			
+		],
+		"school": "Linköpings universitet"
 	}
 ]
