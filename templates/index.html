@@ -26,17 +26,16 @@
             <a href="{{url_for('info', id=project.id)}}">
                 <div class="project_box">
                     <img src="{{ url_for('static', filename='images/'+ project.image) }}" alt="">
-                    <div class="project_overlay">
-                        <h2>{{project.name}}</h2>
+                    <h2>{{project.name}}</h2>
                         <p>{{project.description}}</p>
-                        <p>
+                        <p><i>{{project.project_type}} project</i></p>
+                        <p><b>
                         {% for technique in project.techniques_used %}
                         {{technique}} 
                         
                         {% endfor %}
+                        </b>
                     </p>
-
-                    </div>
                 </div>
             </a>
 
@@ -46,7 +45,7 @@
 </section>
 
 <section class="courses" id="courses">
-    <div class="header" style="background-color: rgb(115, 165, 161)">
+    <div class="header" style="background-color: #bccfc9">
         <h1>COURSES</h1>
         <h2>Knowledge learned by courses</h2>
     </div>
