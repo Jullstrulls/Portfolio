@@ -67,7 +67,7 @@
                     {% if course.projects_id %}
                     <h3>Course projects:</h3>
                     {% for project in course.projects_id %}
-                        <a href="/{{project.id}}">{{project.name}}</a>  
+                        <a href="/project/{{project.id}}">{{project.name}}</a>  
                     {% endfor %}
                     {% endif %}
                     <h3 class="school">{{course.school}}, {{course.start}} </h3>
