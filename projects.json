@@ -12,7 +12,7 @@
             "CSS"
         ],
         "description": "Booking site for fictional Harmony Travel AB",
-        "long_description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        "long_description": "With a strong focus on user-friendliness so that everyone can use a website. Both disability and on different sizes of devices. During a course in web development.",
         "image": "harmony.PNG",
         "external_link": "",
         "co_programmer": "None"
@@ -36,7 +36,7 @@
             "Git"
         ],
         "description": "List, sort and search through listed projects.",
-        "long_description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        "long_description": "Focus on data storage and being able to sort, filter and handle error codes. Documents such as LoFi prototype, project plan, system documentation and test documentation were made. Learned using backend with frontend by using flask and jinja.",
         "image": "portfolio.png",
         "external_link": "",
         "co_programmer": "Julia Skantz"
@@ -56,7 +56,7 @@
             "Git"
         ],
         "description": "Capture falling objects and gather points!",
-        "long_description": "Save Santa är ett utmanande och roligt spel som kan spelas flera gånger om där du tävlar om att samla poäng och hålla ut så länge som möjligt. Spelet är ett 2D arkadspel där du kan styra tomten till höger och vänster genom att använda piltangenterna. Med hjälp av tomten ska du fånga och missa olika fallande objekt från himlen för att överleva och samla mer poäng. Spelet är slut när tomten förlorar alla sina liv. De fyra olika fallande objekten hjärta, stjärna, bomb och karamell har olika egenskaper. Att fånga ett hjärta ger dig +1 liv och +5 poäng, en stjärna ger dig +10 poäng. Akta dig däremot från bomberna, för om du råkar fånga en sådan förlorar du -1 liv. Karamellen är mycket ovanlig och snabb, men om du lyckas fånga den är den värd hela +30 poäng. Det är inte heller okej att missa alla objekt. Missar du en stjärna förlorar du -1 liv. Svårighetsgraden ökar i takt med hur länge du spelar spelet. Efter detta projektet har jag bemästrat kunskaper i att göra spel i SFML med hjälp av C++. Spelet är gjort med en abstraktion av klasser och arvshierarki. Jag har tillsammans med min projektpartner Julia Skantz arbetat med projektet och med en god tidsplanering och effektivt arbete dagtid blev vi färdiga med spelet hela en vecka innan deadline. Projektet har utvecklat mina färdigheter i Git, främst att hantera olika Git konflikter och merges. Spelet visar på mina kunskaper i C++ som kan tillämpas på andra projekt med detta programmeringsspråk.",
+        "long_description": "Save Santa is a challenging and fun game that can be played multiple times where you compete to collect points and persevere for as long as possible. The game is a 2D arcade game where you can control the plot to the right and left by using the arrow keys. with the help of the elf you will catch and miss different falling objects from the sky to survive and collect more points.The game is over when the elf loses all his life.The four different falling objects heart, star, bomb and caramel have different properties. heart gives you +1 life and +5 points, a star gives you +10 points, but beware of the bombs, because if you happen to catch one you lose -1 life.The caramel is very unusual and fast, but if you manage to catch it is worth +30 points. It is also not okay to miss all objects. If you miss a star you lose -1 life. The difficulty increases with how long you play the game. After this project I have mastered the skills of doing games in SFML using C ++. The game is made with an abstraction of classes and inheritance hierarchy. I have worked with my project partner Julia Skantz on the project and with good time planning and efficient work during the day, we finished the game a full week before the deadline. The project has developed my skills in Git, mainly to handle various Git conflicts and merges. The game shows my knowledge of C ++ which can be applied to other projects with this programming language.",
         "image": "savesanta.png",
         "external_link": "",
         "co_programmer": "Julia Skantz"
@@ -78,8 +78,8 @@
             "Jinja",
             "Git"
         ],
-        "description": "Personal project",
-        "long_description": "du kan styra tomten till höger och vänster genom att använda piltangenterna. Med hjälp av tomten ska du fånga och missa olika fallande objekt från himlen för att överleva och samla mer poäng. Spelet är slut när tomten förlorar alla sina liv. De fyra olika fallande objekten hjärta, stjärna, bomb och karamell har olika egenskaper. Att fånga ett hjärta ger dig +1 liv och +5 poäng, en stjärna ger dig +10 poäng. Akta dig däremot från bomberna, för om du råkar fånga en sådan förlorar du -1 liv. Karamellen är mycket ovanlig och snabb, men om du lyckas fånga den är den värd hela +30 poäng. Det är inte heller okej att missa alla objekt. Missar du en stjärna förlorar du -1 liv. Svårighetsgraden ökar i takt med hur länge du spelar spelet. Efter detta projektet har jag bemästrat kunskaper i att göra spel i SFML med hjälp av C++. Spelet är gjort med en abstraktion av klasser och arvshierarki. Jag har tillsammans med min projektpartner Julia Skantz arbetat med projektet och med en god tidsplanering och effektivt arbete dagtid blev vi färdiga med spelet hela en vecka innan deadline. Projektet har utvecklat mina färdigheter i Git, främst att hantera olika Git konflikter och merges. Spelet visar på mina kunskaper i C++ som kan tillämpas på andra projekt med detta programmeringsspråk.",
+        "description": "To display my projects",
+        "long_description": "Portfolio quickly created in a month's time. By using my knowledge of HTML, CSS and Python create a general portfolio where it can easily be added or removed projects and completed courses in data warehousing.",
         "image": "this_portfolio.png",
         "external_link": "",
         "co_programmer": "None"
@@ -103,27 +103,8 @@
             "Git"
         ],
         "description": "Login, save your workout and work out!",
-        "long_description": "du kan styra tomten till höger och vänster genom att använda piltangenterna. Med hjälp av tomten ska du fånga och missa olika fallande objekt från himlen för att överleva och samla mer poäng. Spelet är slut när tomten förlorar alla sina liv. De fyra olika fallande objekten hjärta, stjärna, bomb och karamell har olika egenskaper. Att fånga ett hjärta ger dig +1 liv och +5 poäng, en stjärna ger dig +10 poäng. Akta dig däremot från bomberna, för om du råkar fånga en sådan förlorar du -1 liv. Karamellen är mycket ovanlig och snabb, men om du lyckas fånga den är den värd hela +30 poäng. Det är inte heller okej att missa alla objekt. Missar du en stjärna förlorar du -1 liv. Svårighetsgraden ökar i takt med hur länge du spelar spelet. Efter detta projektet har jag bemästrat kunskaper i att göra spel i SFML med hjälp av C++. Spelet är gjort med en abstraktion av klasser och arvshierarki. Jag har tillsammans med min projektpartner Julia Skantz arbetat med projektet och med en god tidsplanering och effektivt arbete dagtid blev vi färdiga med spelet hela en vecka innan deadline. Projektet har utvecklat mina färdigheter i Git, främst att hantera olika Git konflikter och merges. Spelet visar på mina kunskaper i C++ som kan tillämpas på andra projekt med detta programmeringsspråk.",
+        "long_description": "Web app created so that my boyfriend could easily track his strength training. By using flask and jinja handling login, adding accounts, and saving workouts. Web app is not finished.",
         "image": "training.png",
-        "external_link": "",
-        "co_programmer": "None"
-    },
-    {
-        "name": "Funky blog",
-        "id": 2,
-        "start_date": "2021-03-01",
-        "end_date": "2021-05-31",
-        "course_id": "TDP001",
-        "course_name": "Management of computer environment",
-        "project_type": "school",
-        "techniques_used": [
-            "HTML",
-            "CSS",
-            "Git"
-        ],
-        "description": "Blog to gather formatted code answers.",
-        "long_description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-        "image": "blog.PNG",
         "external_link": "",
         "co_programmer": "None"
     }
